@@ -1,6 +1,7 @@
 cache_dir = Chef::Config[:file_cache_path]
 download_dest = File.join(cache_dir, node['wkhtmltopdf']['package'])
-wkhtmltopdf_version = Chef::Version.new(node['wkhtmltopdf']['version'])
+#wkhtmltopdf_version = Chef::Version.new(node['wkhtmltopdf']['version'])
+wkhtmltopdf_version = node['wkhtmltopdf']['version']
 
 remote_file download_dest do
   source node['wkhtmltopdf']['mirror_url']
