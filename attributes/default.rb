@@ -1,4 +1,4 @@
-default['wkhtmltopdf']['version']     = '0.12.1'
+default['wkhtmltopdf']['version']     = '0.12.2.1'
 
 case node['platform_family']
 when 'mac_os_x', 'mac_os_x_server'
