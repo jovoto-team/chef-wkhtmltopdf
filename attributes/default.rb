@@ -24,4 +24,4 @@ else
 end
 
 default['wkhtmltopdf']['package']     = "wkhtmltox-#{node['wkhtmltopdf']['version']}_linux-precise-amd64.deb"
-default['wkhtmltopdf']['mirror_url']  = "http://downloads.sourceforge.net/project/wkhtmltopdf/#{node['wkhtmltopdf']['version']}/#{node['wkhtmltopdf']['package']}"
+default['wkhtmltopdf']['mirror_url']  = "http://download.gna.org/wkhtmltopdf/0.12/#{node['wkhtmltopdf']['version']}/#{node['wkhtmltopdf']['package']}"
