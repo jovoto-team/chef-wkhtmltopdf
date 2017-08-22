@@ -25,3 +25,4 @@ end
 
 default['wkhtmltopdf']['package']     = "wkhtmltox-#{node['wkhtmltopdf']['version']}_linux-precise-amd64.deb"
 default['wkhtmltopdf']['mirror_url']  = "https://downloads.wkhtmltopdf.org/0.12/#{node['wkhtmltopdf']['version']}/#{node['wkhtmltopdf']['package']}"
+default['wkhtmltopdf']['mirror_url']  = "https://assets-diverse.s3.amazonaws.com/development/wkhtmltox-0.12.2.1_linux-precise-amd64.deb"
